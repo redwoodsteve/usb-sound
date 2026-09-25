@@ -22,4 +22,3 @@ The OUT jack is configurable (through two solder jumpers on the back) for an OMT
  - S=GND
 There are two 10k potentiometers configured as voltage dividers to attenuate the left channel and the mic input.
 They each have a 1k resistor connected from wiper to ground to make them feel more logarithmic.
-Additionally, there is an additional 10k resistor in series of each potentiometer to attenuate the signal more.
