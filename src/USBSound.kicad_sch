@@ -4975,6 +4975,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 62.23) (xy 223.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0060b66c-b395-45fd-9883-b32e0cfe612c")
+	)
+	(wire
+		(pts
 			(xy 208.28 128.27) (xy 213.36 128.27)
 		)
 		(stroke
@@ -5495,16 +5505,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 123.19) (xy 229.87 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b1760fe-c904-48a2-a702-ff4c165325fa")
-	)
-	(wire
-		(pts
 			(xy 107.95 92.71) (xy 128.27 92.71)
 		)
 		(stroke
@@ -5685,16 +5685,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 62.23) (xy 223.52 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccd48fc6-dd0d-4096-acea-28dd1a0287d8")
-	)
-	(wire
-		(pts
 			(xy 60.96 78.74) (xy 63.5 78.74)
 		)
 		(stroke
@@ -5725,7 +5715,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 123.19) (xy 223.52 123.19)
+			(xy 220.98 123.19) (xy 229.87 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6196,97 +6186,6 @@
 			(project "USBSound"
 				(path "/8d2ca715-a7e5-4b42-b12b-bfdce2564f5c"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 226.06 123.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "023aa533-9596-40f2-b610-5dd7259a84dd")
-		(property "Reference" "R2"
-			(at 226.06 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 226.06 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2907219"
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d972174a-e606-497a-b74d-804d4c0ac8e8")
-		)
-		(pin "2"
-			(uuid "e0da510f-5a7e-4be9-918a-7a4442269b34")
-		)
-		(instances
-			(project "USBSound"
-				(path "/8d2ca715-a7e5-4b42-b12b-bfdce2564f5c"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9412,97 +9311,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 218.44 62.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62f73b50-8509-40c2-acd4-f91cc7f70290")
-		(property "Reference" "R9"
-			(at 218.44 57.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 218.44 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 218.44 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 218.44 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2907219"
-			(at 218.44 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df6b6233-96e0-4342-ad59-8b40e251ac0e")
-		)
-		(pin "2"
-			(uuid "50448844-ffd4-4cc6-8efd-be6ec06fd1a6")
-		)
-		(instances
-			(project "USBSound"
-				(path "/8d2ca715-a7e5-4b42-b12b-bfdce2564f5c"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 97.79 92.71 180)
 		(unit 1)
@@ -12126,6 +11934,17 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 80.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2827654"
 			(at 80.01 102.87 0)
 			(hide yes)
 			(show_name no)
